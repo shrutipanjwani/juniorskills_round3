@@ -76,6 +76,6 @@ var x = setInterval(function () {
 	// If the count down is over, say its expired
 	if (distance < 0) {
 		clearInterval(x);
-		document.getElementById("count").innerHTML = "EXPIRED";
+		document.getElementById("count").innerHTML = "Event has started!";
 	}
 }, 1000);
